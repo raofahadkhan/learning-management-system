@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "module": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn --transpile-only server.ts"
   },
-  "author": "Rao Fahad",
+  "author": "rao fahad",
   "license": "ISC",
   "dependencies": {
     "@types/bcryptjs": "^2.4.6",
